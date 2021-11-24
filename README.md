@@ -131,7 +131,7 @@ The HTML pages of the generated website are created using Handelbars templates.
 
 ### Open Event Android App
 
-> The **Open Event Android Project** consists of two components. The **App Generator** is hosted web application, that is hosted on a server and generates an event Android app from a zip with `JSON` and binary files ([examples here](http://github.com/fossasia/open-event)) or through an API. The second component we are developing in the project is generic **Android app** - the output of the app generator. The mobile app can be installed on any Android device for browsing information about the event. Updates can be made automatically through API endpoint connections from an online source *(e.g. server)*, which needs to defined in the provided event zip with the `JSON` files. The Android app has a standard configuration file, that sets the details of the app *(e.g. color scheme, logo of event, link to `JSON` app data).*
+=> The **Open Event Android Project** consists of two components. The **App Generator** is hosted web application, that is hosted on a server and generates an event Android app from a zip with `JSON` and binary files ([examples here](http://github.com/fossasia/open-event)) or through an API. The second component we are developing in the project is generic **Android app** - the output of the app generator. The mobile app can be installed on any Android device for browsing information about the event. Updates can be made automatically through API endpoint connections from an online source *(e.g. server)*, which needs to defined in the provided event zip with the `JSON` files. The Android app has a standard configuration file, that sets the details of the app *(e.g. color scheme, logo of event, link to `JSON` app data).*
 
 #### Repository: https://github.com/fossasia/open-event-android
 
@@ -195,7 +195,7 @@ Or use the 1-click deployment button
 
 ### Endpoints
 ```
-POST /generate
+// POST /generate //
 ```
 
 **Parameters `(x-www-form-urlencoded)` or `json`**
